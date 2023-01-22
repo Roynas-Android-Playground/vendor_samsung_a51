@@ -18,8 +18,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a51/proprietary/vendor/etc/init/init.sensorhub.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sensorhub.rc \
     vendor/samsung/a51/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
     vendor/samsung/a51/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    vendor/samsung/a51/proprietary/vendor/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/fimc_is_lib.bin \
-    vendor/samsung/a51/proprietary/vendor/fimc_is_rta.bin:$(TARGET_COPY_OUT_VENDOR)/fimc_is_rta.bin \
+    vendor/samsung/a51/proprietary/vendor/firmware/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_lib.bin \
+    vendor/samsung/a51/proprietary/vendor/firmware/fimc_is_rta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_rta.bin \
+    vendor/samsung/a51/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
+    vendor/samsung/a51/proprietary/vendor/firmware/setfile_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc5035.bin \
+    vendor/samsung/a51/proprietary/vendor/firmware/setfile_gc5035_macro.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc5035_macro.bin \
+    vendor/samsung/a51/proprietary/vendor/firmware/setfile_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_hi1336.bin \
+    vendor/samsung/a51/proprietary/vendor/firmware/setfile_imx582.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx582.bin \
+    vendor/samsung/a51/proprietary/vendor/firmware/setfile_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx616.bin \
     vendor/samsung/a51/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/a51/proprietary/vendor/lib/hw/camera.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos9611.so \
     vendor/samsung/a51/proprietary/vendor/lib/hw/gralloc.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos9611.so \
@@ -85,12 +91,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a51/proprietary/vendor/lib64/sensors.inputvirtual.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.inputvirtual.so \
     vendor/samsung/a51/proprietary/vendor/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so \
     vendor/samsung/a51/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@2.0.so \
-    vendor/samsung/a51/proprietary/vendor/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/mfc_fw.bin \
-    vendor/samsung/a51/proprietary/vendor/setfile_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/setfile_gc5035.bin \
-    vendor/samsung/a51/proprietary/vendor/setfile_gc5035_macro.bin:$(TARGET_COPY_OUT_VENDOR)/setfile_gc5035_macro.bin \
-    vendor/samsung/a51/proprietary/vendor/setfile_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/setfile_hi1336.bin \
-    vendor/samsung/a51/proprietary/vendor/setfile_imx582.bin:$(TARGET_COPY_OUT_VENDOR)/setfile_imx582.bin \
-    vendor/samsung/a51/proprietary/vendor/setfile_imx616.bin:$(TARGET_COPY_OUT_VENDOR)/setfile_imx616.bin \
     vendor/samsung/a51/proprietary/vendor/tee/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000010081 \
     vendor/samsung/a51/proprietary/vendor/tee/00000000-0000-0000-0000-000000020081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000020081 \
     vendor/samsung/a51/proprietary/vendor/tee/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000534b4d \
