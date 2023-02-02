@@ -14,7 +14,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a51/proprietary/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
     vendor/samsung/a51/proprietary/vendor/etc/gnss/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg \
     vendor/samsung/a51/proprietary/vendor/etc/gnss/gps.debug.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.debug.cfg \
-    vendor/samsung/a51/proprietary/vendor/etc/init/fingerprint_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint_common.rc \
     vendor/samsung/a51/proprietary/vendor/etc/init/init.sensorhub.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.sensorhub.rc \
     vendor/samsung/a51/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
     vendor/samsung/a51/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
