@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a51/proprietary/vendor/lib/hw/camera.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos9611.so \
     vendor/samsung/a51/proprietary/vendor/lib/hw/gralloc.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos9611.so \
     vendor/samsung/a51/proprietary/vendor/lib/hw/hwcomposer.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos9611.so \
-    vendor/samsung/a51/proprietary/vendor/lib/hw/memtrack.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos9611.so \
     vendor/samsung/a51/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
     vendor/samsung/a51/proprietary/vendor/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGrallocWrapper.so \
     vendor/samsung/a51/proprietary/vendor/lib/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSEF.quram.so \
@@ -61,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a51/proprietary/vendor/lib64/hw/camera.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos9611.so \
     vendor/samsung/a51/proprietary/vendor/lib64/hw/gralloc.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos9611.so \
     vendor/samsung/a51/proprietary/vendor/lib64/hw/hwcomposer.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos9611.so \
-    vendor/samsung/a51/proprietary/vendor/lib64/hw/memtrack.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos9611.so \
     vendor/samsung/a51/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl.so \
     vendor/samsung/a51/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so \
     vendor/samsung/a51/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
